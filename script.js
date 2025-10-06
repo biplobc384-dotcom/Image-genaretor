@@ -1,5 +1,5 @@
 // আপনার Hugging Face API Key এখানে দিন
-const API_KEY = "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"; // আপনার আসল টোকেনটি এখানে পেস্ট করুন
+const API_KEY = "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"; // আপনার আসল টোকেনটি এখানে পেস্ট করুন
 const API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0";
 
 const promptInput = document.getElementById("prompt-input");
@@ -55,4 +55,5 @@ generateBtn.addEventListener("click", async () => {
         loadingText.classList.add("hidden");
         imageContainer.innerHTML = '<p>দুঃখিত, ছবিটি তৈরি করা যায়নি। অনুগ্রহ করে আবার চেষ্টা করুন।</p>';
     }
+
 });
